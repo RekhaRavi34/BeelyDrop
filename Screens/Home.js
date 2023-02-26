@@ -9,4 +9,11 @@ const Home = () => {
 }
 export default Home;
 
-const styles= StyleSheet.create({});
+const styles= StyleSheet.create({
+    container:{
+        backgroundColor:'white',
+        // justifyContent: 'center',
+        alignItems: 'center',
+        flex:1
+    },
+});
